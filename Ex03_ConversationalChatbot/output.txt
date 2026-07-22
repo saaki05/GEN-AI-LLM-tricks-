@@ -1,0 +1,11 @@
+Chatbot ready! Running sample multi-turn conversation.
+>> User: Hi, how are you?
+Bot: Good, I think... I'm working on something right now but I have to leave soon
+>> User: What can you help me with?
+Bot: I can tell you what I have
+>> User: Tell me something interesting about AI.
+Bot: It's like how the AI are working to make more people have a better chance of becoming a doctor.
+
+
+----- STDERR -----
+The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.

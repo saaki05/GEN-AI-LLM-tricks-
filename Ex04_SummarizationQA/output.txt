@@ -1,0 +1,10 @@
+Summary:
+ Large Language Models (LLMs) are trained on massive text corpora. They can perform a wide range of natural language tasks including translation, summarization, and question answering.
+
+Question: What are Large Language Models trained on?
+Answer: massive text corpora | Confidence: 0.892
+
+
+----- STDERR -----
+Device set to use cuda:0
+Device set to use cuda:0

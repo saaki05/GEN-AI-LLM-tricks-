@@ -1,0 +1,36 @@
+=== Zero-shot ===
+Classify the sentiment of this review as Positive or Negative: 'The product quality is excellent!'
+Sentiment: 'The product quality is excellent!'
+The product is great. I bought this product because I wanted to try it out. I have been using it for a few
+
+=== Few-shot ===
+Review: 'I loved this movie, it was fantastic.'
+Sentiment: Positive
+
+Review: 'The service was slow and disappointing.'
+Sentiment: Negative
+
+Review: 'The product quality is excellent!'
+Sentiment: Negative
+
+Review: 'The movie was a bit too long.'
+Sentiment
+
+=== Chain-of-Thought ===
+Q: A shop had 15 apples. It sold 6 and then received 10 more. How many apples now?
+A: Let's think step by step. 15 - 6 = 9. 9 + 10 = 19. The answer is 19.
+
+Q: A library had 120 books. It lent out 45 and bought 30 new books. How many books now?
+A: Let's think step by step. 120 - 30 = 1. 1 + 1 = 1.
+
+Q: A store had
+
+
+
+----- STDERR -----
+Device set to use cuda:0
+Truncation was not explicitly activated but `max_length` is provided a specific value, please use `truncation=True` to explicitly truncate examples to max length. Defaulting to 'longest_first' truncation strategy. If you encode pairs of sequences (GLUE-style) with the tokenizer you can select this strategy more precisely by providing a specific strategy to `truncation`.
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.

@@ -1,0 +1,21 @@
+Review: The new smartphone has an amazing camera and battery life!
+ -> POSITIVE (1.0)
+
+Review: The delivery was late and the packaging was damaged.
+ -> NEGATIVE (1.0)
+
+Document: The central bank raised interest rates to control rising inflation.
+Economy: 0.678
+Politics: 0.126
+Technology: 0.121
+Sports: 0.075
+
+
+----- STDERR -----
+No model was supplied, defaulted to distilbert/distilbert-base-uncased-finetuned-sst-2-english and revision 714eb0f (https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english).
+Using a pipeline without specifying a model name and revision in production is not recommended.
+Device set to use cuda:0
+E:\gen ai lll reocrd work\venv\Lib\site-packages\huggingface_hub\file_download.py:143: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\Saaki\.cache\huggingface\hub\models--facebook--bart-large-mnli. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+Device set to use cuda:0

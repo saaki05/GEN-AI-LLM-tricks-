@@ -1,0 +1,9 @@
+venv/
+.claude/
+__pycache__/
+*.pyc
+results/
+Ex10_FineTuning/fine_tuned_distilbert_imdb/
+Ex10_FineTuning/results/
+.cache/
+*.log
