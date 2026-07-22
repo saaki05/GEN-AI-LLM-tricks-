@@ -1,0 +1,15 @@
+Running on local URL:  http://127.0.0.1:7860
+
+To create a public link, set `share=True` in `launch()`.
+Running on local URL: http://127.0.0.1:7860/
+Sample summarization via deployed function: Generative AI is a class of artificial intelligence models capable of producing new content such as text, images, audio, and video.
+Closing server running on port: 7860
+ROUGE Evaluation Scores: {'rouge1': np.float64(0.608695652173913), 'rouge2': np.float64(0.380952380952381), 'rougeL': np.float64(0.608695652173913), 'rougeLsum': np.float64(0.608695652173913)}
+
+
+----- STDERR -----
+Device set to use cuda:0
+Your max_length is set to 45, but your input_length is only 29. Since this is a summarization task, where outputs shorter than the input are typically wanted, you might consider decreasing max_length manually, e.g. summarizer('...', max_length=14)
+
+Downloading builder script: 0.00B [00:00, ?B/s]
+Downloading builder script: 6.14kB [00:00, 2.12MB/s]
