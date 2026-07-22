@@ -1,0 +1,56 @@
+Image generated and saved as generated_city.png
+
+
+----- STDERR -----
+E:\gen ai lll reocrd work\venv\Lib\site-packages\huggingface_hub\file_download.py:143: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\Saaki\.cache\huggingface\hub\models--runwayml--stable-diffusion-v1-5. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+
+Fetching 15 files:   0%|          | 0/15 [00:00<?, ?it/s]
+Fetching 15 files:   7%|6         | 1/15 [00:01<00:19,  1.37s/it]
+Fetching 15 files:  27%|##6       | 4/15 [03:39<10:49, 59.08s/it]
+Fetching 15 files:  47%|####6     | 7/15 [04:09<04:22, 32.78s/it]
+Fetching 15 files:  87%|########6 | 13/15 [06:50<00:58, 29.21s/it]
+Fetching 15 files: 100%|##########| 15/15 [06:50<00:00, 27.37s/it]
+
+Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]
+Loading pipeline components...:  29%|##8       | 2/7 [00:00<00:00,  9.25it/s]
+Loading pipeline components...:  43%|####2     | 3/7 [00:01<00:02,  1.84it/s]
+Loading pipeline components...:  57%|#####7    | 4/7 [00:01<00:01,  2.17it/s]
+Loading pipeline components...:  71%|#######1  | 5/7 [00:01<00:00,  2.75it/s]
+Loading pipeline components...:  86%|########5 | 6/7 [00:02<00:00,  2.97it/s]
+Loading pipeline components...: 100%|##########| 7/7 [00:05<00:00,  1.46s/it]
+Loading pipeline components...: 100%|##########| 7/7 [00:05<00:00,  1.17it/s]
+
+  0%|          | 0/30 [00:00<?, ?it/s]
+  3%|3         | 1/30 [00:00<00:28,  1.02it/s]
+  7%|6         | 2/30 [00:01<00:15,  1.82it/s]
+ 10%|#         | 3/30 [00:01<00:11,  2.45it/s]
+ 13%|#3        | 4/30 [00:01<00:08,  2.89it/s]
+ 17%|#6        | 5/30 [00:01<00:07,  3.24it/s]
+ 20%|##        | 6/30 [00:02<00:06,  3.50it/s]
+ 23%|##3       | 7/30 [00:02<00:06,  3.68it/s]
+ 27%|##6       | 8/30 [00:02<00:05,  3.80it/s]
+ 30%|###       | 9/30 [00:02<00:05,  3.91it/s]
+ 33%|###3      | 10/30 [00:03<00:05,  4.00it/s]
+ 37%|###6      | 11/30 [00:03<00:04,  4.06it/s]
+ 40%|####      | 12/30 [00:03<00:04,  4.10it/s]
+ 43%|####3     | 13/30 [00:03<00:04,  4.12it/s]
+ 47%|####6     | 14/30 [00:04<00:03,  4.15it/s]
+ 50%|#####     | 15/30 [00:04<00:03,  4.16it/s]
+ 53%|#####3    | 16/30 [00:04<00:03,  4.17it/s]
+ 57%|#####6    | 17/30 [00:04<00:03,  4.17it/s]
+ 60%|######    | 18/30 [00:05<00:02,  4.18it/s]
+ 63%|######3   | 19/30 [00:05<00:02,  4.19it/s]
+ 67%|######6   | 20/30 [00:05<00:02,  4.21it/s]
+ 70%|#######   | 21/30 [00:05<00:02,  4.22it/s]
+ 73%|#######3  | 22/30 [00:06<00:01,  4.22it/s]
+ 77%|#######6  | 23/30 [00:06<00:01,  4.23it/s]
+ 80%|########  | 24/30 [00:06<00:01,  4.24it/s]
+ 83%|########3 | 25/30 [00:06<00:01,  4.25it/s]
+ 87%|########6 | 26/30 [00:06<00:00,  4.26it/s]
+ 90%|######### | 27/30 [00:07<00:00,  4.27it/s]
+ 93%|#########3| 28/30 [00:07<00:00,  4.28it/s]
+ 97%|#########6| 29/30 [00:07<00:00,  4.29it/s]
+100%|##########| 30/30 [00:07<00:00,  4.29it/s]
+100%|##########| 30/30 [00:07<00:00,  3.80it/s]
